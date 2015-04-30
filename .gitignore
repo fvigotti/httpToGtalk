@@ -1,0 +1,13 @@
+#### idea files
+*.iml
+*.ipr
+.idea/
+META-INF/
+
+# gradle files
+.gradle/
+
+# compiled binaries & libs
+build/
+lib/
+
