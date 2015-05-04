@@ -31,7 +31,7 @@ public class HelloController {
     @RequestMapping("/gmessage")
     public String gmessage(@RequestBody(required = false) String input) {
         log.info("received message" + Optional.ofNullable(input).orElse("null"));
-        return "success, received:"+input;
+        return "success, received:"+Optional.ofNullable(input).orElse("null");
     }
 
 }
